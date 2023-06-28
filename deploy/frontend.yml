@@ -42,23 +42,11 @@ objects:
             module: ./RootApp
             routes:
               - pathname: "/openshift/learning-resources"
-                props:
-                  bundle: openshift
               - pathname: "/ansible/learning-resources"
-                props:
-                  bundle: ansible
               - pathname: "/insights/learning-resources"
-                props:
-                  bundle: insights
               - pathname: "/edge/learning-resources"
-                props:
-                  bundle: edge
               - pathname: "/settings/learning-resources"
-                props:
-                  bundle: settings
               - pathname: "/iam/learning-resources"
-                props:
-                  bundle: iam
         moduleID: learning-resources
 parameters:
   - name: ENV_NAME
